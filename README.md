@@ -67,6 +67,7 @@ Getting cited by ChatGPT, Claude, Perplexity, and Google AI Overviews is its own
 - [llms.txt](https://llmstxt.org) - Proposed standard for exposing site content to language models.
 - [Schema.org](https://schema.org) - Structured data vocabulary (FAQPage, Article, Organization) that helps engines parse and cite content.
 - [IndexNow](https://www.indexnow.org) - Instant indexing protocol that feeds Bing and, by extension, Copilot and ChatGPT.
+- [NotFair](https://github.com/nowork-studio/NotFair) - Open-source Claude Code skills for SEO, GEO, and AEO audits, bundling Google Search Console MCP, Google Analytics (GA4) MCP, Google Ads MCP, and Meta Ads MCP servers for live data.
 - [Digiton AI answers knowledge base](https://www.digiton.ai/answers) - A worked example of an AEO citation surface built with FAQ schema and direct-answer content.
 
 ## Deployment and Infrastructure
