@@ -2,15 +2,20 @@
 
 > Curated tools, frameworks, and platforms for running AI agents and LLM applications in production.
 
-The operations layer of AI: orchestration, guardrails, observability, gateways, evaluation, retrieval, durable workflows, serving, data ops, and AI search optimization. The focus is on what teams actually run in production, not demos. Maintained by [Digiton Dynamics](https://www.digiton.ai).
+The operations layer of AI: orchestration, guardrails, observability, gateways,
+evaluation, retrieval, durable workflows, serving, data ops, and AI search
+optimization. The focus is on production use, not demos. Maintained by
+[Digiton Dynamics](https://www.digiton.ai).
 
-Each entry is tagged `open source`, `hosted`, or `open source + hosted`.
+Each entry is tagged `open source`, `hosted`, or `open source + hosted`. Vendor
+descriptions are intentionally neutral; if a number or positioning claim changes,
+open a PR with a source.
 
 ## Contents
 
 - [Agent frameworks and orchestration](#agent-frameworks-and-orchestration)
 - [Guardrails, safety and governance](#guardrails-safety-and-governance)
-- [Observability, Tracing and Evaluation](#observability-tracing-and-evaluation)
+- [Observability, tracing and evaluation](#observability-tracing-and-evaluation)
 - [LLM gateways, routing and caching](#llm-gateways-routing-and-caching)
 - [Prompt engineering, evaluation and testing](#prompt-engineering-evaluation-and-testing)
 - [RAG, retrieval and vector databases](#rag-retrieval-and-vector-databases)
@@ -22,7 +27,7 @@ Each entry is tagged `open source`, `hosted`, or `open source + hosted`.
 
 ## Agent frameworks and orchestration
 
-- **[AutoGen](https://github.com/microsoft/autogen)** - Microsoft multi-agent framework, now in maintenance mode; see Microsoft Agent Framework. `open source`
+- **[AutoGen](https://github.com/microsoft/autogen)** - Microsoft multi-agent framework; newer Microsoft agent tooling is listed below. `open source`
 - **[CrewAI](https://github.com/crewAIInc/crewAI)** - Python framework for role-based multi-agent crews and event-driven flows. `open source + hosted`
 - **[LlamaIndex](https://github.com/run-llama/llama_index)** - Data framework for connecting LLMs to sources, indices, and agent workflows. `open source + hosted`
 - **[LangGraph](https://github.com/langchain-ai/langgraph)** - Low-level graph based framework for stateful, durable multi-agent execution. `open source + hosted`
@@ -31,8 +36,8 @@ Each entry is tagged `open source`, `hosted`, or `open source + hosted`.
 - **[Mastra](https://github.com/mastra-ai/mastra)** - TypeScript framework for agents, workflows, RAG, and observability. `open source + hosted`
 - **[Google ADK (Agent Development Kit)](https://github.com/google/adk-python)** - Google's code-first toolkit for building, evaluating, and deploying agents. `open source`
 - **[Pydantic AI](https://github.com/pydantic/pydantic-ai)** - Type-safe, model-agnostic Python agent framework from the Pydantic team. `open source`
-- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework)** - Enterprise successor merging AutoGen and Semantic Kernel into one SDK. `open source`
-- **[AWS Strands Agents SDK](https://github.com/strands-agents/harness-sdk)** - Amazon's open-source model-driven SDK for building and running agents. `open source`
+- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework)** - Microsoft SDK for building agentic applications and workflows. `open source`
+- **[AWS Strands Agents SDK](https://github.com/strands-agents/harness-sdk)** - Open-source model-driven SDK for building and running agents. `open source`
 - **[Atomic Agents](https://github.com/BrainBlend-AI/atomic-agents)** - Lightweight modular Python framework for composable, schema-driven agents. `open source`
 
 ## Guardrails, safety and governance
@@ -46,9 +51,9 @@ Each entry is tagged `open source`, `hosted`, or `open source + hosted`.
 - **[Microsoft Presidio](https://github.com/microsoft/presidio)** - Detects and anonymizes PII in text, images and structured data. `open source`
 - **[Promptfoo](https://github.com/promptfoo/promptfoo)** - CLI and library for LLM eval plus red-teaming and vulnerability scanning. `open source`
 - **[Microsoft PyRIT](https://github.com/microsoft/PyRIT)** - Open-source framework for automated red teaming of generative AI systems. `open source`
-- **[OpenAI Moderation API](https://developers.openai.com/api/docs/guides/moderation)** - Free hosted endpoint classifying text and images for harmful content categories. `hosted`
+- **[OpenAI Moderation API](https://developers.openai.com/api/docs/guides/moderation)** - Hosted endpoint for classifying text and images against safety categories. `hosted`
 
-## Observability, Tracing and Evaluation
+## Observability, tracing and evaluation
 
 - **[LangSmith](https://www.langchain.com/langsmith)** - LangChain's tracing, evaluation and monitoring platform for LLM apps and agents. `hosted`
 - **[Langfuse](https://github.com/langfuse/langfuse)** - Open source LLM engineering platform: tracing, evals, prompt management, datasets. `open source + hosted`
@@ -65,8 +70,8 @@ Each entry is tagged `open source`, `hosted`, or `open source + hosted`.
 ## LLM gateways, routing and caching
 
 - **[LiteLLM](https://github.com/BerriAI/litellm)** - Open-source proxy and SDK calling 100+ LLM APIs in one OpenAI-compatible format. `open source + hosted`
-- **[OpenRouter](https://openrouter.ai/)** - Hosted unified API and marketplace routing requests across 400+ models, 70+ providers. `hosted`
-- **[Portkey AI Gateway](https://github.com/Portkey-AI/gateway)** - Open-source gateway routing to 1,600+ LLMs with built-in guardrails and fallbacks. `open source + hosted`
+- **[OpenRouter](https://openrouter.ai/)** - Hosted unified API and marketplace for routing requests across many models and providers. `hosted`
+- **[Portkey AI Gateway](https://github.com/Portkey-AI/gateway)** - Open-source gateway for LLM routing, guardrails, retries, and fallbacks. `open source + hosted`
 - **[Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/)** - Hosted proxy adding caching, rate limiting, retries and logging in front of AI providers. `hosted`
 - **[Kong AI Gateway](https://github.com/Kong/kong)** - Kong Gateway plugins adding LLM proxying, load balancing and semantic caching. `open source + hosted`
 - **[Helicone AI Gateway](https://github.com/Helicone/ai-gateway)** - Open-source Rust gateway for LLM routing, caching, failover and observability. `open source + hosted`
@@ -104,7 +109,7 @@ Each entry is tagged `open source`, `hosted`, or `open source + hosted`.
 
 - **[Temporal](https://github.com/temporalio/temporal)** - Durable execution engine; replays event history so workflows survive crashes and restarts. `open source + hosted`
 - **[Apache Airflow](https://github.com/apache/airflow)** - Long-standing DAG-based scheduler for authoring and monitoring data and ML pipelines. `open source`
-- **[n8n](https://github.com/n8n-io/n8n)** - Fair-code visual workflow builder with 400+ integrations and native AI nodes. `open source + hosted`
+- **[n8n](https://github.com/n8n-io/n8n)** - Fair-code visual workflow builder with integrations and native AI nodes. `open source + hosted`
 - **[Inngest](https://github.com/inngest/inngest)** - Event-driven durable step functions that run on existing serverless or server compute. `open source + hosted`
 - **[Prefect](https://github.com/PrefectHQ/prefect)** - Python-native orchestration framework; decorate functions into resilient data pipelines. `open source + hosted`
 - **[Trigger.dev](https://github.com/triggerdotdev/trigger.dev)** - Open-source background jobs platform for long-running tasks with retries and queues. `open source + hosted`
@@ -129,11 +134,11 @@ Each entry is tagged `open source`, `hosted`, or `open source + hosted`.
 
 ## Data, labeling and fine-tuning ops
 
-- **[Label Studio](https://github.com/HumanSignal/label-studio)** - Open-source multi-type data labeling and annotation tool for text, image, audio, video. `open source + hosted`
+- **[Label Studio](https://github.com/HumanSignal/label-studio)** - Open-source data labeling and annotation tool for text, image, audio, and video. `open source + hosted`
 - **[Argilla](https://github.com/argilla-io/argilla)** - Collaboration tool for AI engineers and domain experts to build and curate high-quality datasets. `open source + hosted`
 - **[Axolotl](https://github.com/axolotl-ai-cloud/axolotl)** - YAML-configured framework for fine-tuning and post-training a wide range of LLMs. `open source`
 - **[Unsloth](https://github.com/unslothai/unsloth)** - Fine-tunes and trains LLMs faster with significantly reduced GPU memory usage. `open source`
-- **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)** - Unified toolkit for efficient fine-tuning of 100+ LLMs and vision-language models. `open source`
+- **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)** - Unified toolkit for efficient fine-tuning of LLMs and vision-language models. `open source`
 - **[Snorkel AI](https://snorkel.ai/)** - Programmatic data labeling and curation platform using weak supervision at enterprise scale. `hosted`
 - **[Distilabel](https://github.com/argilla-io/distilabel)** - Framework for generating synthetic data and AI feedback pipelines for LLM training. `open source`
 - **[Cleanlab](https://github.com/cleanlab/cleanlab)** - Data-centric library that detects label errors, outliers, and quality issues in datasets. `open source + hosted`
@@ -146,8 +151,8 @@ Each entry is tagged `open source`, `hosted`, or `open source + hosted`.
 - **[Peec AI](https://peec.ai/)** - Berlin-based GEO platform tracking prompt-level brand visibility across ChatGPT, Gemini, Perplexity. `hosted`
 - **[Otterly.AI](https://otterly.ai/)** - Daily automated monitoring of brand and link citations across ChatGPT, Perplexity, Google AI Overviews. `hosted`
 - **[AthenaHQ](https://athenahq.ai/)** - AI search visibility tracking with citation-source analysis and an agentic optimization copilot. `hosted`
-- **[Scrunch AI](https://scrunch.com/)** - Enterprise AI visibility platform with bot-detection edge layer serving optimized content to crawlers. `hosted`
-- **[Goodie AI](https://higoodie.com/)** - All-in-one AEO platform combining AI-visibility monitoring, content writing, and optimization workflow. `hosted`
+- **[Scrunch AI](https://scrunch.com/)** - Enterprise AI visibility platform for monitoring and optimizing how brands appear in AI search. `hosted`
+- **[Goodie AI](https://higoodie.com/)** - AEO platform combining AI-visibility monitoring, content workflow, and optimization tooling. `hosted`
 - **[Writesonic GEO](https://writesonic.com/generative-engine-optimization-geo)** - GEO platform crawling AI interfaces directly to track visibility and close content gaps. `hosted`
 
 ## Contributing
