@@ -7,7 +7,7 @@ evaluation, retrieval, durable workflows, serving, data ops, and AI search
 optimization. The focus is on production use, not demos. Maintained by
 [Digiton Dynamics](https://www.digiton.ai).
 
-Each entry is tagged `open source`, `hosted`, or `open source + hosted`. Vendor
+Each entry is tagged `open source`, `source available`, `hosted`, or `open source + hosted`. Vendor
 descriptions are intentionally neutral; if a number or positioning claim changes,
 open a PR with a source.
 
@@ -89,6 +89,7 @@ open a PR with a source.
 - **[BAML](https://github.com/BoundaryML/baml)** - Typed prompt/schema language compiling functions into reliable model calls. `open source`
 - **[Giskard](https://github.com/Giskard-AI/giskard-oss)** - Open-source testing library for LLM agents, including red-teaming checks. `open source + hosted`
 - **[Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)** - UK AI Security Institute framework for large language model evaluations. `open source`
+- **[Agent QA](https://github.com/vostride/agent-qa)** - Runs natural-language web/mobile regression workflows with persistent test memory and retained failure evidence. `source available`
 
 ## RAG, retrieval and vector databases
 
