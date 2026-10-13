@@ -39,6 +39,7 @@ open a PR with a source.
 - **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework)** - Microsoft SDK for building agentic applications and workflows. `open source`
 - **[AWS Strands Agents SDK](https://github.com/strands-agents/harness-sdk)** - Open-source model-driven SDK for building and running agents. `open source`
 - **[Atomic Agents](https://github.com/BrainBlend-AI/atomic-agents)** - Lightweight modular Python framework for composable, schema-driven agents. `open source`
+- **[Agent Barn](https://github.com/aai-labs/agent-barn)** - Open-source (Apache-2.0) control plane for running AI agent teams: multi-channel chat front ends (Slack, Teams, Telegram, Discord, email), full audit logging of conversations, tool calls and costs, Helm deployment on Kubernetes. `open source + hosted`
 
 ## Guardrails, safety and governance
 
