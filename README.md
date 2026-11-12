@@ -79,6 +79,7 @@ open a PR with a source.
 
 ## Prompt engineering, evaluation and testing
 
+- **[agentstats](https://github.com/RishabhPande/agentstats)** - Python analysis of repeated agent-benchmark outcomes with run-aware tests, corrected comparisons and uncertainty tiers. `open source`
 - **[Promptfoo](https://github.com/promptfoo/promptfoo)** - CLI and library to test, evaluate, and red-team prompts, RAGs, and agents. `open source`
 - **[DSPy](https://github.com/stanfordnlp/dspy)** - Stanford framework for programming, not prompting, language model pipelines. `open source`
 - **[Ragas](https://github.com/vibrantlabsai/ragas)** - Reference-free evaluation metrics and test-set generation for RAG pipelines. `open source`
